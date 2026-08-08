@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.phone {
+    width: 390px;
+    height: 844px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.chat-area {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    bottom: 92px;
+    overflow-y: auto;
+    padding: 12px 16px 30px;
+    scrollbar-width: none;
+}
+
+.chat-area::-webkit-scrollbar {
+    display: none;
+}
+
+.story-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 44px;
+}
+
+.date {
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 14px;
+    letter-spacing: .8px;
+    margin: 14px 0 42px;
+}
+
+.story-card {
+    width: 205px;
+    height: 365px;
+    background: #121212;
+    border-radius: 28px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .05);
+}
+
+.story-card.tall {
+    height: 390px;
+}
+
+.story-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.floating {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 95px;
+}
+
+.circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    color: #fff;
+    font-size: 12px;
+}
+
+.circle:hover {
+    background: #2f2f2f;
+    cursor: pointer;
+}
+
+.story-row .story-card {
+    margin-left: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button,
+i,
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width:390px) {
+
+    .phone,
+    .topbar,
+    .bottom {
+        width: 100%;
+    }
+    
+    .story-card {
+        width: 54vw;
+        max-width: 210px;
+    }
+}
