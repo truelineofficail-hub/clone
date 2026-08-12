@@ -123,5 +123,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-Maintainer: [Your Name / GitHub handle]
+Maintainer: Harsh Rajput.
 Issues & suggestions: open a GitHub Issue on this repo
