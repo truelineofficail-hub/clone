@@ -6,6 +6,8 @@ A front-end clone of Instagram's core UI — feed, stories, chat, search, and pr
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-lightgrey)
 
+🔗 Live Preview: truelineofficail-hub.github.io/clone
+�
 ## Table of Contents
 
 - [Features](#features)
