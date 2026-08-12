@@ -9,9 +9,9 @@ A front-end clone of Instagram's core UI — feed, stories, chat, search, and pr
 🔗 **Live Preview:** [truelineofficail-hub.github.io/clone](https://truelineofficail-hub.github.io/clone/)
 
 [
-![Front Page Screenshot](./image/post/screenshot.png)
+![Front Page Screenshot](./image/post/27.jpg)
 
-](https://truelineofficail-hub.github.io/clone/)
+]
 
 ## Table of Contents
 
