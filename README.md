@@ -8,8 +8,10 @@ A front-end clone of Instagram's core UI — feed, stories, chat, search, and pr
 
 🔗 **Live Preview:** [truelineofficail-hub.github.io/clone](https://truelineofficail-hub.github.io/clone/)
 
-[![Front Page Screenshot](../image/pfp/krishna.jpg)](https://truelineofficail-hub.github.io/clone/)
-> _Replace `screenshot.png` with your own screenshot of the front page (use placeholder/stock images, not personal photos, before publishing). Click the image to open the live site._
+[
+![Front Page Screenshot](./image/post/screenshot.png)
+
+](https://truelineofficail-hub.github.io/clone/)
 
 ## Table of Contents
 
